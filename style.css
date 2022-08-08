@@ -50,6 +50,12 @@ body {
   float:right;
 
 }
+@media (max-width :396px){
+  .form-control button{
+    display: none;
+  }
+}
+
 
   input:focus{
       outline:none;
